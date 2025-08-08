@@ -15,4 +15,4 @@ docs/
 .github/
 .vscode/
 .wake/
-tt/
+.DS_Store
