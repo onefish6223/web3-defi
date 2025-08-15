@@ -1,4 +1,23 @@
 # 看涨期权 Token (Call Option)
+# 测试日志
+Ran 14 tests for test/CallOption.t.sol:CallOptionTest
+[PASS] testCalculateExerciseCost() (gas: 7971)
+[PASS] testCanExercise() (gas: 16422)
+[PASS] testCannotExerciseAfterExercisePeriod() (gas: 130960)
+[PASS] testCannotExerciseBeforeExpiration() (gas: 130218)
+[PASS] testCannotExpireBeforeExercisePeriodEnds() (gas: 102435)
+[PASS] testCannotIssueOptionsAfterExpiration() (gas: 29764)
+[PASS] testCompleteOptionLifecycle() (gas: 206688)
+[PASS] testExerciseOption() (gas: 174677)
+[PASS] testExpireOptions() (gas: 117834)
+[PASS] testGetOptionDetails() (gas: 23660)
+[PASS] testInitialState() (gas: 23025)
+[PASS] testIssueOptions() (gas: 100100)
+[PASS] testTransferOptions() (gas: 127435)
+[PASS] testUpdateUnderlyingPrice() (gas: 19724)
+Suite result: ok. 14 passed; 0 failed; 0 skipped; finished in 7.29ms (7.33ms CPU time)
+
+Ran 1 test suite in 198.25ms (7.29ms CPU time): 14 tests passed, 0 failed, 0 skipped (14 total tests)
 
 ## 概述
 
